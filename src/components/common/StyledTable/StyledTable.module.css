@@ -1,0 +1,14 @@
+.wrapper {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.wrapper tr:not(:last-of-type), wrapper th {
+  border-bottom: 1px solid rgb(243, 243, 244);
+}
+
+.wrapper td, .wrapper th {
+  padding: 10px 10px;
+}

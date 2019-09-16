@@ -1,0 +1,32 @@
+.wrapper {
+  grid-area: message;
+}
+
+.messages>div:not(:last-child) {
+  border-bottom: 1px solid rgb(243, 243, 244);
+}
+
+.messagesInfo {
+  background-color: rgb(243, 246, 251);
+  padding: 15px;
+}
+
+.messagesInfo span {
+  display: block;
+}
+
+.messagesInfo span:first-child {
+  font-size: xx-large;
+}
+
+.message {
+  padding: 10px 0;
+}
+
+.message div span:first-child {
+  font-weight: bold;
+}
+
+.message p:last-child span {
+  font-size: 0.8rem;
+}

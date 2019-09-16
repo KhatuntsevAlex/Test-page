@@ -1,0 +1,9 @@
+.topCardGroup {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapper {
+  /* grid-area: top; */
+}

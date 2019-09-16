@@ -1,0 +1,14 @@
+.wrapper {
+  grid-area: trans;
+}
+
+.tableWrapper {
+  width: 49%;
+}
+
+.graph {
+  display: block;
+  width: 500px;
+  height: 290px;
+  background-position: -1090px -990px;
+}

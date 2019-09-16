@@ -1,0 +1,14 @@
+.wrapper {
+  width: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wrapper span, .message p:last-child span {
+  color: rgb(168, 168, 168);
+}
+
+.wrapper span {
+  cursor: pointer;
+}

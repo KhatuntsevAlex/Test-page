@@ -2,14 +2,77 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  color: rgb(128, 129, 132);
 }
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(243, 243, 244);
+}
+
+button, button:active, button:focus {
+  outline: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+ul {
+  margin-left: 0;
+  padding-left: 0;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.graph {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-image: url(./assets/img/screen1.png);
+}
+
+.blue {
+  color: rgb(28, 132, 198);
+  background-color: rgb(28, 132, 198);
+}
+
+.olive {
+  color: rgb(35, 198, 200);
+  background-color: rgb(35, 198, 200);
+}
+
+.green {
+  color: rgb(26, 179, 148);
+  background-color: rgb(26, 179, 148);
+}
+
+.green::-webkit-progress-value {
+  background-color: rgb(26, 179, 148);
+}
+
+.red {
+  color: rgb(237, 85, 101);
+  background-color: rgb(237, 85, 101);
+}
+
+.orange {
+  color: rgb(248, 172, 89);
+  background-color: rgb(248, 172, 89);
+}
+
+.no-background-color {
+  background-color: unset !important;
+}
+
+.spaceBetween {
+  display: flex;
+  justify-content: space-between;
+}
+
+.noWrap {
+  white-space: nowrap;
 }

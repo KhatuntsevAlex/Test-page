@@ -1,0 +1,10 @@
+.wrapper {
+  width: 400px;
+}
+
+.ordersBarGroup {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}

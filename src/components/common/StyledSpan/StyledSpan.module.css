@@ -1,0 +1,14 @@
+.wrapper {
+  display: flexbox;
+  padding: 5px 10px;
+  font-size: 0.9rem;
+  border-radius: 3px;
+  line-height: 0.9rem;
+  color: white;
+  cursor: pointer;
+}
+
+.initial {
+  color: rgb(128, 129, 132);
+  display: contents;
+}
