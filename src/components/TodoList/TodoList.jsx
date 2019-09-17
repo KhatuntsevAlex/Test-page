@@ -7,7 +7,7 @@ import Todo from './Todo'
 import style from './TodoList.module.css'
 
 const TodoList = () => {
-  const [todos, setTodos] = useState([
+  const [todos] = useState([
     {
       id: 1,
       todo: 'Buy a milk',

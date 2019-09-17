@@ -5,6 +5,7 @@ import CardContent from '../common/CardContent/CardContent'
 import TotalStatistics from '../common/TotalStatistics/TotalStatistics'
 import Card from '../common/Card/Card'
 import StyledSpan from '../common/StyledSpan/StyledSpan'
+
 const TotalInfoCard = ({
   name,
   period,
@@ -13,8 +14,7 @@ const TotalInfoCard = ({
   percentage,
   icon,
   color,
-}) => {
-  return (
+}) => (
     <div className={style.wrapper} data-area="">
       <Card>
         <CardHeader title={name}>
@@ -26,7 +26,6 @@ const TotalInfoCard = ({
       </Card>
     </div >
   )
-}
 
 export default TotalInfoCard
 

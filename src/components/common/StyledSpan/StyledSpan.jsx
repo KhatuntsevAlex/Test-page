@@ -1,8 +1,8 @@
 import React from 'react'
 import style from './StyledSpan.module.css'
 
-const StyledSpan = ({ children, color }) => (
-  <span className={`${style.wrapper} ${color ? color : style.initial} noWrap`}>
+const StyledSpan = ({ children, color, cursor }) => (
+  <span className={`${color ? color : style.initial} ${cursor && cursor} ${style.wrapper} noWrap`}>
     {children}
   </span>
 )

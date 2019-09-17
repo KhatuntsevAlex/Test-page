@@ -6,9 +6,9 @@ const IconGroup = () => {
   const { close, settings, collapse } = getIcons()
   return (
     <div className={style.wrapper}>
-      <span> {collapse}</span>
-      <span> {settings}</span>
-      <span> {close}</span>
+      <span>{collapse}</span>
+      <span>{settings}</span>
+      <span>{close}</span>
     </div>
   )
 }

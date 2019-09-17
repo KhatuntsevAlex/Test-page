@@ -1,7 +1,7 @@
 import React from 'react'
 import style from './StyledTable.module.css'
 
-const StyledTable = ({ children, headers, bodyData }) => (
+const StyledTable = ({ children, headers }) => (
   <table className={style.wrapper}>
     <thead>
       <tr>

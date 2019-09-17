@@ -7,10 +7,12 @@ const UserProject = ({ status, date, user, value, icon, clock }) => (
     <td>
       {status !== 'Pending...'
         ? <StyledSpan
-          color={status === 'Completed' ? 'green' : 'orange'}>
+          color={status === 'Completed' ? 'green' : 'orange'}
+          cursor="cursorUnset"
+        >
           {status}
         </StyledSpan>
-        : <StyledSpan>{status}</StyledSpan>
+        : <StyledSpan cursor="cursorUnset">{status}</StyledSpan>
       }
     </td>
     <td className="noWrap">{`${clock} ${date}`}</td>

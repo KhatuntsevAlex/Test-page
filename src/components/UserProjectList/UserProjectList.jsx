@@ -10,7 +10,7 @@ import style from './UserProject.module.css'
 
 const UserProjectList = () => {
   const { up, clock } = getIcons()
-  const [userProjectList, setUserProjectList] = useState([
+  const [userProjectList] = useState([
     {
       status: 'Pending...',
       date: '11:20pm',

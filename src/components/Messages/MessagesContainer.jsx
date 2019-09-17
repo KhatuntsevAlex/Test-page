@@ -3,14 +3,11 @@ import style from './Messages.module.css'
 import Card from '../common/Card/Card'
 import CardHeader from '../common/CardHeader/CardHeader'
 import CardContent from '../common/CardContent/CardContent'
-import Message from './Message'
+import Message from './/Message'
 import IconGroup from '../common/IconGroup/IconGroup'
 
-
-
-
 const MessagesContainer = () => {
-  const [messages, setMessages] = useState([
+  const [messages] = useState([
     {
       author: 'Monica Smith',
       visitDate: '1m ago',

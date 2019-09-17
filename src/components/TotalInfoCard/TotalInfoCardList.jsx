@@ -1,11 +1,10 @@
-import React, { useState } from 'react';
-import TotalInfoCard from './TotalInfoCard';
-import style from './TotalInfoCard.module.css';
-import getIcons from '../../assets/icons';
+import React, { useState } from 'react'
+import TotalInfoCard from './TotalInfoCard'
+import getIcons from '../../assets/icons'
 
 const TotalInfoCardList = () => {
-  const { thunder, up, down, close, settings } = getIcons()
-  const [items, setItems] = useState([
+  const { thunder, up, down } = getIcons()
+  const [items] = useState([
     {
       name: 'Income',
       period: 'Monthly',
@@ -43,11 +42,7 @@ const TotalInfoCardList = () => {
       color: 'red',
     },
   ])
-  return (<>
-    {/* <div className={style.topCardGroup}> */}
-    {items.map(item => <TotalInfoCard {...item} />)}
-    {/* </div> */}</>
-  )
+  return <>{items.map(item => <TotalInfoCard {...item} />)}</>
 }
 
 export default TotalInfoCardList

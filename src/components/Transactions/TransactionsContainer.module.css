@@ -6,9 +6,9 @@
   width: 49%;
 }
 
-.graph {
+.loading {
   display: block;
-  width: 500px;
-  height: 290px;
-  background-position: -1090px -990px;
+  font-size: 2rem;
+  line-height: 2rem;
+  text-align: center;
 }

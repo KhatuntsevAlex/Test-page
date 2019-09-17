@@ -9,14 +9,12 @@ const OrdersBar = ({
   percentage,
   icon,
   color,
-}) => {
-  return (
+}) => (
     <div className={style.wrapper}>
       <TotalStatistics total={total} name={name} color={color} percentage={percentage} icon={icon} />
       <Progress color={color} value={percentage} />
     </div>
 
   )
-}
 
 export default OrdersBar

@@ -10,11 +10,10 @@ const Todo = ({
 }) => {
   const { clock } = getIcons()
   return (
-    <div className={style.todo}>
+    <div className={`${style.todo} bgGrey `}>
       <input type="checkbox" className={style.checkbox} id={`checkbox${id}`} />
       <label for={`checkbox${id}`}>{todo}</label>
-      {expires && <StyledSpan color="green">{`${clock}   ${expires}`}</StyledSpan>}
-
+      {expires && <StyledSpan color="green" cursor="cursorUnset">{`${clock}   ${expires}`}</StyledSpan>}
     </div>
   )
 }

@@ -18,20 +18,15 @@
 }
 
 .progress::-webkit-progress-bar {
-  /* контейнер в Webkit */
   border-radius: 3px;
   background: rgb(243, 243, 244);
 }
 
 .progress::-moz-progress-bar {
-  /* разноцветная линия-индикатор в Firefox */
   border-radius: 3px 3px 3px 3px;
   background: rgb(243, 243, 244);
 }
 
 .progress::-webkit-progress-value {
-  /* разноцветная линия-индикатор в Webkit */
   border-radius: 3px 3px 3px 3px;
-  /* background-image: linear-gradient(135deg, transparent, transparent 33%, rgba(0, 0, 0, .1) 33%, rgba(0, 0, 0, .1) 66%, transparent 66%), linear-gradient(rgba(0, 0, 0, .2) 1px, rgba(255, 255, 255, .4) 1px, rgba(0, 0, 0, .2)), linear-gradient(to left, #00baff, #4d7198);
-  background-size: 35px 20px, 100% 100%, 100% 100%; */
 }

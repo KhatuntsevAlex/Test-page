@@ -7,9 +7,7 @@ const Message = ({
   text,
   messageDate,
   color,
-}) => {
-
-  return (
+}) => (
     <div className={style.message}>
       <div className="spaceBetween">
         <span className="noWrap">{author}</span>
@@ -23,6 +21,5 @@ const Message = ({
       </p>
     </div>
   )
-}
 
 export default Message

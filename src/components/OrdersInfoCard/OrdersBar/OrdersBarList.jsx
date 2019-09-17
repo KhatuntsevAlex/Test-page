@@ -4,8 +4,8 @@ import OrdersBar from './OrdersBar';
 import getIcons from '../../../assets/icons';
 
 const OrdersBarList = () => {
-  const { thunder, up, down, close, settings } = getIcons()
-  const [items, setItems] = useState([
+  const { thunder, up, down } = getIcons()
+  const [items] = useState([
     {
       name: 'Total orders in period',
       total: '2,346',
